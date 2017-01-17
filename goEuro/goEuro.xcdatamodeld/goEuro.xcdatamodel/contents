@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D17a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Travel" representedClassName="Travel" syncable="YES" codeGenerationType="class">
+        <attribute name="arrival_time" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
+        <attribute name="departure_time" optional="YES" attributeType="Date" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
+        <attribute name="duration" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="number_of_stops" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price_in_euros" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="provider_logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="GetBuses" entity="Travel" predicateString="type == &quot;Buses&quot;"/>
+    <fetchRequest name="GetFlights" entity="Travel" predicateString="type == &quot;Flights&quot;"/>
+    <fetchRequest name="GetTrains" entity="Travel" predicateString="type == &quot;Trains&quot;"/>
+    <elements>
+        <element name="Travel" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
 </model>

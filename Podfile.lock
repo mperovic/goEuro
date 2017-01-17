@@ -1,0 +1,21 @@
+PODS:
+  - DFCache (4.0.1)
+  - Nuke (4.1.2)
+  - Preheat (3.0)
+  - ReachabilitySwift (3)
+
+DEPENDENCIES:
+  - DFCache
+  - Nuke
+  - Preheat
+  - ReachabilitySwift (~> 3)
+
+SPEC CHECKSUMS:
+  DFCache: db3bc28ceaa6f8838b1183607cb37924e488f070
+  Nuke: 7cfd2acdf90c36f66e6ea40795bac0d851a9afe0
+  Preheat: 74a7813c8ea106314c6251de807cc0ae1cb7442d
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+
+PODFILE CHECKSUM: 86901fe90849fb38658c3b0b95cfe4f905fdae61
+
+COCOAPODS: 1.1.1

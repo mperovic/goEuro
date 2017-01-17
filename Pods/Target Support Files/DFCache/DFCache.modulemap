@@ -1,0 +1,6 @@
+framework module DFCache {
+  umbrella header "DFCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
